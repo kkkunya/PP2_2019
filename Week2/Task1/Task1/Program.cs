@@ -11,7 +11,7 @@ namespace Task1
         static void Main(string[] args)
         {
             bool f = true; // creating boolean "f"
-            string text = System.IO.File.ReadAllText(@"C:\Users\Lenovo\Desktop\PP2_2019\WriteLines.txt");
+            string text = System.IO.File.ReadAllText(@"C:\Users\Lenovo\Desktop\PP2_2019\WriteLines.txt"); // creating string "text" that takes data from the file
             int t = text.Length; // we are getting the length of word and saving on int type "t"
             for (int i = 0; i < t / 2; i++) // loop that runs in half of word
             {
